@@ -31,3 +31,9 @@ section{
     display: block;
 
 }
+aside{
+    width: 270px;
+    left: 0;
+    z-index: 10;
+    position: fixed;
+}
