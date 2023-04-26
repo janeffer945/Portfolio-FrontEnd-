@@ -70,7 +70,7 @@ ul{
     font-family: 'clicker script', cursive;
     font-family: 40px;
 } 
-.aside .logo  a ::before{
+.aside .logo  a::before{
     content:'';
     position: absolute;
     width: 20px;
@@ -78,8 +78,18 @@ ul{
     border-bottom: 5px solid var(--skin-color);
     border-left: 5px solid var(--skin-color);
     bottom: 0 ;
-    /* top: 0; */
     left: 0;
-    /* right: 0; */
-
+    
 }
+
+/* .aside .logo  a::before{
+    content:'';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+     top: 0;
+     right: 0;
+
+} */
