@@ -4,7 +4,7 @@
     --bg-black-900:#f2f2fc;
     --bg-black-100: #fdf9ff;
     --bg-black-50: #e8dfec;
-    --bg-black-900:#e0deef;
+    --bg-black-900:#302e4d;
     --bg-black-700:#504e70;  
 }
 body{
@@ -105,5 +105,7 @@ ul{
     font-size: 16px;
     font-weight: 600;
     display: block;
+    color: var(--bg-black-900);
+    padding: 5px 15px;
 
 }
