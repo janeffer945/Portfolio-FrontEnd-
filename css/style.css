@@ -82,7 +82,7 @@ ul{
     
 }
 
-/* .aside .logo  a::before{
+.aside .logo  a::after{
     content:'';
     position: absolute;
     width: 20px;
@@ -92,4 +92,4 @@ ul{
      top: 0;
      right: 0;
 
-} */
+}
