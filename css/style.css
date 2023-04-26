@@ -21,3 +21,13 @@ body{
 ::before, ::after{
     box-sizing: border-box;
 } 
+section{
+    background: var(--bg-black-900);
+    position: fixed;
+    right: 0;
+    left: 270px;
+    top: 0;
+    min-height: 100vh;
+    display: block;
+
+}
