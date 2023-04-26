@@ -60,4 +60,9 @@ ul{
 }
 .aside .logo a {
     color: var(--bg-black-900);
+    font: weight 700;
+    padding: 15px 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+
 }
