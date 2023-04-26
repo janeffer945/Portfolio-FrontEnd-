@@ -96,3 +96,7 @@ ul{
 .aside .nav{
     margin-top: 50px;
 }
+.aside .nav li{
+    margin-bottom: 20px;
+    background:red ;
+}
