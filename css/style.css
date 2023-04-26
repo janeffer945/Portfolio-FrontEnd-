@@ -21,7 +21,10 @@ body{
 ::before, ::after{
     box-sizing: border-box;
 } 
-section{
+ul{
+    list-style: none;
+}
+ .section{
     background: var(--bg-black-900);
     position: fixed;
     right: 0;
@@ -33,7 +36,7 @@ section{
     opacity: 1;
 
 }
-aside{
+ .aside{
     width: 270px;
     padding: 30;
     left: 0;
@@ -41,5 +44,14 @@ aside{
     z-index: 10;
     position: fixed;
     height: 100%;
-   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.aside .logo{
+    position: absolute;
+    font-size: 30px;
+    top: 50px;
+    text-transform: capitalize;
 }
