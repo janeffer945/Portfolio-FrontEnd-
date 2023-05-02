@@ -166,3 +166,13 @@ ul{
     height: 2px;
     width: 18px;
 }
+
+.aside .nav-toggler span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -6px;
+    background: var(--skin-color);
+    height: 2px;
+    width: 18px;
+}
