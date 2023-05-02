@@ -145,3 +145,9 @@ ul{
 .aside .nav li a i {
     margin-right: 15px;
 }
+.aside .nav-toggler span{
+    width: 18px;
+    height: 2px;
+    background: var(--skin-color);
+    display: inline-block;
+}
