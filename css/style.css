@@ -157,7 +157,7 @@ ul{
     position: relative;
 }
 
-.aside .nav-toggler span ::before{
+.aside .nav-toggler span::before{
     content: '';
     position: absolute;
     left: 0;
