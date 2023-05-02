@@ -103,6 +103,8 @@ ul{
     left: 300px;
     top: 20px;
     border-radius: 5px;
+    display: flex;
+    background: var(--bg-black-100);
 }
 .aside .nav{
     margin-top: 50px;
