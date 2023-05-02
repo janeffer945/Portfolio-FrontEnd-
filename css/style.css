@@ -154,4 +154,15 @@ ul{
     height: 2px;
     background: var(--skin-color);
     display: inline-block;
+    position: relative;
+}
+
+.aside .nav-toggler span ::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -6px;
+    background: var(--skin-color);
+    height: 2px;
+    width: 18px;
 }
