@@ -62,8 +62,13 @@ ul{
 .btn{
     font-size: 16px;
     font-weight: 500;
-    padding:12p 35px ;
+    padding:12px 35px ;
+    color: white;
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 40px;
     background-color: var(--skin-color);
+    transition: all 0.3s ease;
 }
  .aside{
     width: 270px;
