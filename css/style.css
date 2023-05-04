@@ -59,6 +59,12 @@ ul{
     position: relative;
 
 }
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    padding:12p 35px ;
+    background-color: var(--skin-color);
+}
  .aside{
     width: 270px;
     border-right: 1px solid var(--bg-black-50);
