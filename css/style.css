@@ -219,6 +219,11 @@ h3.hello{
 h3.hello span{
   font-family: 'clicker script', cursive;
 }
+h3.my-profession{
+    font-size: 30px;
+    margin: 15px 0;
+
+}
     
 .home .home-img img{
     height: 400px;
