@@ -56,6 +56,8 @@ ul{
     flex-wrap: wrap;
     margin-left: -15px ;
     margin-right: -15px;
+    position: relative;
+
 }
  .aside{
     width: 270px;
@@ -195,6 +197,11 @@ ul{
     width: 18px;
 }
 /*home page*/
+.home{
+    min-height: 100vh;
+    display: flex;
+    color: var(--bg-black-900);
+}
 .home .home-img img{
     height: 400px;
 }
