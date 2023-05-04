@@ -218,11 +218,26 @@ h3.hello{
 }
 h3.hello span{
   font-family: 'clicker script', cursive;
+  color: var(--skin-color);
+  font-size: 30px;
+  font-weight: 700;
 }
 h3.my-profession{
     font-size: 30px;
     margin: 15px 0;
 
+}
+.home-info p{
+    color: var(--text-black-700);
+    margin-bottom: 70px;
+    font-size:20px;
+
+}
+
+    
+
+.typing{
+    color: var(--skin-color);
 }
     
 .home .home-img img{
