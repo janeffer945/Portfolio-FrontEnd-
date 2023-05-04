@@ -51,6 +51,12 @@ ul{
     margin: auto;
 
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px ;
+    margin-right: -15px;
+}
  .aside{
     width: 270px;
     border-right: 1px solid var(--bg-black-50);
