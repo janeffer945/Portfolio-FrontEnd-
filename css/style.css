@@ -177,4 +177,6 @@ ul{
     width: 18px;
 }
 /*home page*/
-
+.home .home-img img{
+    height: 400px;
+}
