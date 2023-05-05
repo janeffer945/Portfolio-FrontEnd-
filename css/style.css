@@ -70,6 +70,9 @@ ul{
     background-color: var(--skin-color);
     transition: all 0.3s ease;
 }
+.btn:hover{
+    transform: scale(1.05);
+}
  .aside{
     width: 270px;
     border-right: 1px solid var(--bg-black-50);
@@ -215,30 +218,39 @@ ul{
 }
 
    
-.home .home-img{
-   
-    display: flex;
-    max-width: 40%;
-   
+.home .home-info
+{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.home .home-img
+{
+    flex: 0 0 40%;
+   max-width: 40%;
    text-align: center;
-   
-} 
-h3.hello{
+   position: relative;
+}
+
+h3.hello
+{
     font-size: 28px;
     margin: 15px 0;
 }
-h3.hello span{
+h3.hello span
+{
   font-family: 'clicker script', cursive;
   color: var(--skin-color);
   font-size: 30px;
   font-weight: 700;
 }
-h3.my-profession{
+h3.my-profession
+{
     font-size: 30px;
     margin: 15px 0;
 
 }
-.home-info p{
+.home-info p
+{
     color: var(--text-black-700);
     margin-bottom: 70px;
     font-size:20px;
@@ -247,11 +259,13 @@ h3.my-profession{
 
     
 
-.typing{
+.typing
+{
     color: var(--skin-color);
 }
     
-.home .home-img img{
+.home .home-img img
+{
     height: 400px;
     font-size: 30px;
     font-weight: 700;
