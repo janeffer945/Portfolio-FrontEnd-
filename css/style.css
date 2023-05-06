@@ -316,7 +316,9 @@ h3.my-profession
 .home .home-img img
 {
     height: 400px;
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--skin-color);
+    margin: auto;
+    border-radius:5px ;
+    
+
+
 }
