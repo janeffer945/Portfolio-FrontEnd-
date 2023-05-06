@@ -39,13 +39,8 @@ ul
  .section
  {
     background: var(--bg-black-900);
-    position: fixed;
-    right: 0;
-    left: 270px;
-    top: 0;
     padding: 0 30px;
-    min-height: 100vh;
-    z-index: 0;
+    min-height: 100vh;   
     display: block;
     opacity: 1;
 
@@ -117,7 +112,7 @@ ul
 .aside  .logo a span
 {
     font-family: 'clicker script', cursive;
-    font-family: 40px;
+    font-size: 40px;
 } 
 .aside .logo  a::before
 {
