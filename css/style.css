@@ -38,24 +38,33 @@ ul
 }
  .section
  {
-    background: var(--bg-black-900);
+    /* background: var(--bg-black-900); */
+    position: fixed;
+    right: 0;
+    left: 270px;
+    top: 0;
     padding: 0 30px;
-    min-height: 100vh;   
+    min-height: 100vh;
+    z-index: 0;
     display: block;
     opacity: 1;
 
 }
-.main-content
+/* .hidden
 {
- padding: 270px;   
-}
-
+    display: none;
+} */
 .container
 {
     max-width: 1100px;
     width: 100%;
     margin: auto;
 
+}
+.section .container
+{
+    padding-top:60px ;
+    padding-bottom: 70px;
 }
 .row
 {
@@ -116,7 +125,7 @@ ul
 .aside  .logo a span
 {
     font-family: 'clicker script', cursive;
-    font-size: 40px;
+    font-family: 40px;
 } 
 .aside .logo  a::before
 {
@@ -244,7 +253,7 @@ ul
 }
 
    
-.home.home-info
+.home .home-info
 {
     flex: 0 0 60%;
     max-width: 60%;
@@ -253,7 +262,6 @@ ul
 {
     flex: 0 0 40%;
    max-width: 40%;
-  
    text-align: center;
    position: relative;
 }
@@ -317,8 +325,7 @@ h3.my-profession
 {
     height: 400px;
     margin: auto;
-    border-radius:5px ;
-
-
-
+    /* font-size: 30px;
+    font-weight: 700;
+    color: var(--skin-color); */
 }
